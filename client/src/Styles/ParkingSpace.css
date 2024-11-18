@@ -1,0 +1,65 @@
+/* General Styles */
+.mainContainerPrkingSpace {
+   
+    font-family: Arial, sans-serif;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .parkingSpaceContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .twoWheeler, .threeWheeler, .fourWheeler {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .twoWheeler div, .threeWheeler div, .fourWheeler div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  span {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #28a745; /* Green for availability */
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  span:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
