@@ -9,10 +9,12 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <ParkingSpace/>
-      {/* <Footer/>
       <Login/>
-      <Signup/> */}
+      <Signup/>
+      <ParkingSpace/>
+  
+     
+      <Footer/>
 
   
  
